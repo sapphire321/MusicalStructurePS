@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlist Genere"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:id="@+id/classical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classical music"
+        android:textSize="14dp"
+        android:layout_margin="4dp"
+        />
+    <Button
+        android:id="@+id/pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pop"
+        android:textSize="14dp"
+        android:layout_margin="4dp"
+        />
+    <Button
+        android:id="@+id/electronic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronic"
+        android:textSize="14dp"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In this section user chooses genere and inext step is to be transfered to now playing section where we will hear random audio file from selected genere."
+        android:background="#ffff01"
+        android:padding="8dp"
+    />
+
+</LinearLayout>

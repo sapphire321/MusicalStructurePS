@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureps.MainActivity"
+    >
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Music App"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:background="#ffff01"
+        android:text="Welcome screen, place any logo any info here to greet user and promoite brand.\nClick the logo to proceed"
+        android:padding="8dp"
+    />
+    <ImageView
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity=""
+        android:layout_centerInParent="true"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter"
+        android:layout_centerHorizontal="true"
+        android:text="Please click to enter"
+    />
+
+
+</RelativeLayout>
